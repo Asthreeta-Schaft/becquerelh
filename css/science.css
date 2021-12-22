@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@1,500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.logo img{
+    width: 30%;
+    margin: auto;
+    border-radius: 100%;
+    border: 2px solid rgb(12, 119, 219);
+}
+
+.nav{
+    height: 20px;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    z-index:1;
+}
+
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    align-items: center;
+    padding: 26px 30px;
+    list-style: none;
+}
+
+.nav-list li a:hover{
+    color: grey;
+    transition: 0.5s;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    font-family: 'arvo', sans-serif;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/stars.jpg');
+    background-size: cover;
+}
+
+.backgroundA{
+    background: rgba(0, 0, 0, 0.7) url('../img/blackwall.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.card{
+    overflow: hidden; 
+    padding: 20px;
+    background-color: ghostwhite;
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+
+.sectionTag{
+    padding: 16px 0;
+}
+
+.text-big{
+    font-size: 40px;
+    color: cornflowerblue; 
+    font-family: 'arvo', sans-serif;
+}
+
+.text-big2{
+    font-size: 36px;
+    color: cornflowerblue; 
+    font-family: 'arvo', sans-serif;
+}
+
+.text-big3{
+    font-size: 32px;
+    color: cornflowerblue; 
+    font-family: 'arvo', sans-serif;
+}
+
+.text-small{
+    font-size: 18px;
+    color: rgb(39, 206, 248);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ .more{
+    display: none;
+ }
+
+ .post{
+    color: #e5e5e5;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 25px;
+    font-family: 'Work Sans',sans-serif;
+ }
+
+ .post:not(:last-child){
+    margin-bottom: 30px;
+ }
+
+ button{
+    margin-top: 15px;
+    display: block;
+    background-color: #e41d3f;
+    color: white;
+    border: gray;
+    border-radius: 12px;
+    outline: none;
+    padding: 8px 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.5s;
+ }
+ 
+
+ .myBtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .myBtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .myBtn:hover span {
+    padding-right: 25px;
+  }
+  
+  .myBtn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 10%;
+    top: 5px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+p{
+    font-size:calc(14px + 2px);
+}
+
+article{
+    height: 150vw;
+    width: 100vw;
+    display: contents;
+}
+
+#more {display: none;}
+
+div{
+    word-wrap: break-word;
+}
+
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border: none;
+    text-indent: 100%;
+    background: url(../img/ui.totop.png) no-repeat left top;
+    z-index: 9999;
+    background-image: url(../img/ui.totop.png);
+    background-size: 40px 80px; 
+}
+
+.dec{
+    padding: 20px;
+    background: rgb(248, 162, 3);
+    text-align: center;
+}
+
+.dec2{
+    background: rgb(248, 162, 3);
+}
+
+#section-c{
+    display: flex;
+}
+
+#section-c div{
+    padding: 20px;
+}
+
+#section-c .box-1, #section-c .box-3{
+    background: #926239;
+    color: #fff;
+}
+
+
+#section-c .box-2{
+    background: #f9f9f9;
+}
+
+#cosine{
+    background-color: aliceblue;
+    float: left;
+    width: 100%;
+    margin: 80px 0px 30px;
+    padding: 0px;
+    position: relative;
+    display: block;
+    background: transparent;
+    border: 0;
+    font-size: 100%;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Alogo {
+    background: #fdf6ea;
+    padding: 7px;
+    border-radius: 114px;
+    height: 100px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: -60px;
+    width: 100px;
+}
+
+.retina_logo{
+    border-radius: 50%;
+}
+
+.Alogo img {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+#cosine .widgets-wrapper {
+    width: 100%;
+    margin: 0px;
+    background: ghostwhite;
+    border-top-color: ghostwhite;
+    border-top: 3px solid ghostwhite;
+    padding: 90px 0px 20px;
+    float: left;
+    clear: both;
+}
+
+.fullwidth-section .container, #cosine .widgets-wrapper .container {
+    line-height: 22px;
+}
+
+
+.container {
+    margin: 0 auto;
+    position: relative;
+    clear: both;
+}
+
+.dt-sc-one-fourth {
+    /*22.75%*/
+    width: auto;
+    margin-left: 10px;
+    padding-right: 127px;
+}
+
+.column {
+    margin: 0px 10px 0px 20px;
+    float: left;
+    min-height: 2px;
+    position: relative;
+}
+
+a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+  
+  a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  a:hover::before {
+    transform: scaleX(1);
+  }
+
+.widget {
+    float: left;
+    width: 100%;
+    padding: 0px 0px 40px;
+    margin: 0px;
+}
+
+#cosine .widget h3.widgettitle {
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.widget h3.widgettitle {
+    position: relative;
+    float: left;
+    clear: both;
+    width: 100%;
+}

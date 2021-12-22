@@ -1,0 +1,32 @@
+@media only screen and (max-width: 360px){
+    
+    .nav-list{
+        flex-direction: column;
+        height: 150vw;
+    }
+    .navbar{
+        height: 496px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+
+.burger{
+    display: block;
+    }
+
+    .h-class-resp{
+        height: 72px;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .text-small{
+        text-align: center;
+    }
+ 
+    .text-big{
+        text-align: center;
+    }
+}

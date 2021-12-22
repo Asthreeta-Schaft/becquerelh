@@ -1,0 +1,60 @@
+/* Asthreeta Schaft Required Responsive CSS Code*/
+@media only screen and (max-width: 1209px){
+    
+    .nav-list{
+        flex-direction: column;
+        height: 150vw;
+    }
+    .navbar{
+        height: 530px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+
+    .column {
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .container { display: flex; flex-flow: column; }
+
+.box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+
+.burger{
+    display: block;
+    }
+
+    .h-class-resp{
+        height: 72px;
+    }
+
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .flex-container {
+        display: flex;
+    }    
+
+    .section{
+        flex-direction: column-reverse;
+    }
+
+    .text-small{
+        text-align: center;
+    }
+ 
+    .text-big{
+        text-align: center;
+    }
+
+    .buttons{
+        text-align: center;
+    }
+    .paras{
+        padding: 0px;
+    }
+}

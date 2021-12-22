@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+body{
+    margin: 0;
+    padding:0;
+    overflow-x:hidden;
+    font-family: auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.tech{
+    font-size: 50px;
+    line-height: 1.2;
+    color: rgb(240, 240, 11); 
+    font-family: 'arvo', sans-serif;
+}
+
+.text-small{
+    font-size: 20px;
+    color: blue; 
+}
+
+#showcase{
+    background-image: url('../img/indexwallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase .button{
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+    border: aqua 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase .button:hover{
+    background: rgb(130, 250, 130);
+    color:#fff;
+}
+
+#section-a{
+    padding: 20px;
+    background: #926239;
+    color: white;
+    text-align: center;
+}
+
+#section-b{
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#section-c{
+    display: flex;
+}
+
+#section-c div{
+    padding: 20px;
+}
+
+#section-c .box-1, #section-c .box-3{
+    background: #926239;
+    color: #fff;
+}
+
+
+#section-c .box-2{
+    background: #f9f9f9;
+}
+
+div{
+    word-wrap: break-word;
+    overflow-x: hidden;
+}
+
+#Footer
+{
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-text{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.backgroundA{
+    background: rgba(0, 0, 0, 0.7) url('../img/blackwall.jpg');
+    background-size: cover;
+    background-blend-mode: darken;    
+}
